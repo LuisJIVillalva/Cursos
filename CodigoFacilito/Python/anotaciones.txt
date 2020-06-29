@@ -1,0 +1,51 @@
+estas trabajan de forma independiente entre ellas
+doctest
+documenten testing
+
+ejecutar un este por linea de comando
+-m doctest test.txt
+
+esto nos brinda mejor informacion del test
+-m doctest -v test.txt
+
+libreria doctest
+de esta forma se ejecutan los testes junto con el programa
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
+con esto importamos test
+    doctest.testfile("test.txt")
+
+------------------------------------------
+Assert
+tiene el propósito de debooguear el scrip
+para encontrar errores
+solo se coloca assert seguido de valor bool
+si es verdadero no pasa nada
+caso contrario se lanza una esepción
+
+asser True, "mensaje"
+
+-----------------------------
+librería Pytest
+from algoritmos import fibonacci, palindromo
+
+def test_fibonacci_cinco():
+    assert fibonacci(5) == 5
+
+def test_palindromo_anita():
+        assert palindromo("Anita lava la tina")
+
+solo test sencillos
+-------------------------------------------------
+libreria Unitest
+
+tip
+no existe una cantidad establecida de pruebas para un proyecto
+-------------------------------------------------
+assertRegex implementea la libreria re
+-------------------------------------------------
+fails
+test manuales en cullo caso los assets no cumplen nuestros requerimientos
+-------------------------------------------------
+formas de saltar una prueba

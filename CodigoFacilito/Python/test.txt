@@ -1,0 +1,27 @@
+la suma de 2 mas 2 es 4
+>>> 2 + 2
+4
+
+La suma de 10 + 20 es igual a 30
+>>> 10 + 20
+30
+
+>>> def suma(*args):
+...     return sum(args)
+
+la suma de 10 mas 20 mas 30 es 60
+
+>>> suma(10,20,30)
+60
+>>> from algoritmos import fibonacci
+>>> fibonacci(12)
+144
+
+-------------------------------------
+libreria doctest
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
+
+    de esta forma se ejecutan los teste junto con el programa
