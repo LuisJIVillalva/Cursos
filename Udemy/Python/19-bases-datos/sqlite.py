@@ -64,4 +64,3 @@ print(producto)
 
 #Cerrar conexión
 conexion.close()
-a
