@@ -6,3 +6,5 @@ pasos
 2) agregar ruta en app.routes.ts
 import {BucadorComponent} from './components/heroe/heroe.component'
 {path: 'buscar/:termino', component: BuscadorComponent},
+
+
