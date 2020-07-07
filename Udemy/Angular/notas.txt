@@ -1,0 +1,8 @@
+tarea crear buscador
+pasos
+1) crear componente:
+  ng g c components/buscador -is
+
+2) agregar ruta en app.routes.ts
+import {BucadorComponent} from './components/heroe/heroe.component'
+{path: 'buscar/:termino', component: BuscadorComponent},
